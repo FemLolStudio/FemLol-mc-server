@@ -9,4 +9,9 @@ VOLUME ["/minecraft_server"]
 
 EXPOSE 25565/tcp
 
-CMD ["java", "-Xmx4G", "-Xms4G", "-jar", "/minecraft_server/server.jar", "nogui"]
+# CMD ["java", "-Xmx4G", "-Xms4G", "-jar", "/minecraft_server/server.jar", "nogui"]
+
+RUN echo "sleep 1000s" > /usr/local/bin/idling.sh
+RUN chmod +x /usr/local/bin/idling.sh
+
+CMD ["/usr/local/bin/idling.sh"]
