@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk16:alpine-jre
+FROM openjdk:18-oracle
 
 ENV EULA="TRUE"
 ENV VERSION="1.19.4"
