@@ -1,7 +1,7 @@
 FROM openjdk:8-jre-alpine
 
 ENV EULA="TRUE"
-ENV VERSION="1.17.1"
+ENV VERSION="1.19.4"
 
 WORKDIR /minecraft_server
 
