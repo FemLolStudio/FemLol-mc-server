@@ -12,7 +12,7 @@ EXPOSE 25565/tcp
 # CMD ["java", "-Xmx4G", "-Xms4G", "-jar", "/minecraft_server/server.jar", "nogui"]
 
 RUN echo "#!/bin/bash" > idling.sh
-RUN echo "sleep 1000s" >> idling.sh
+RUN echo "sleep 10s" >> idling.sh
 RUN chmod +x idling.sh
 
 CMD ["idling.sh"]
