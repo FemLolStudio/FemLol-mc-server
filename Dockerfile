@@ -9,4 +9,4 @@ VOLUME ["/minecraft_server"]
 
 EXPOSE 25565/tcp
 
-# CMD ["java", "-Xmx4G", "-Xms4G", "-jar", "/minecraft_server/server.jar", "nogui"]
+CMD ["java", "-Xmx4G", "-Xms4G", "-jar", "/minecraft_server/server.jar", "nogui"]
