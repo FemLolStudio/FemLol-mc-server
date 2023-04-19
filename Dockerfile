@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11:alpine-jre
+FROM adoptopenjdk/openjdk16:alpine-jre
 
 ENV EULA="TRUE"
 ENV VERSION="1.19.4"
