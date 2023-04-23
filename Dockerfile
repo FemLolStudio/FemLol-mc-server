@@ -9,4 +9,5 @@ EXPOSE 81/tcp
 
 RUN echo 'precedence ::ffff:0:0/96 100' >> /etc/gai.conf
 
- CMD ["java", "-Xmx4G", "-Xms4G", "-Djava.net.preferIPv4Stack=false", "-Djava.net.preferIPv6Addresses=true", "-jar", "/minecraft_server/server.jar", "nogui"]
+ CMD ["java", "-Xmx4G", "-Xms4G", "-jar", "/minecraft_server/server.jar", "nogui"]
+#"-Djava.net.preferIPv4Stack=false", "-Djava.net.preferIPv6Addresses=true"
