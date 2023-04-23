@@ -5,6 +5,6 @@ ENV VERSION="1.19.4"
 
  WORKDIR /minecraft_server
 
-EXPOSE 25565/tcp
+EXPOSE 80/tcp
 
  CMD ["java", "-Xmx4G", "-Xms4G", "-jar", "/minecraft_server/server.jar", "nogui"]
