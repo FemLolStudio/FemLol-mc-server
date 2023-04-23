@@ -5,7 +5,7 @@ ENV VERSION="1.19.4"
 
  WORKDIR /minecraft_server
 
-EXPOSE 80/tcp
+EXPOSE 81/tcp
 
 RUN echo 'precedence ::ffff:0:0/96 100' >> /etc/gai.conf
 
