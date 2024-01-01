@@ -1,4 +1,4 @@
-FROM openjdk:23-oracle
+FROM openjdk:21-oracle
 
 ENV EULA="TRUE"
 ENV VERSION="1.20.4"
