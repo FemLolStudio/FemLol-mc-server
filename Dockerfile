@@ -1,7 +1,7 @@
-FROM openjdk:18-oracle
+FROM openjdk:21-oracle
 
 ENV EULA="TRUE"
-ENV VERSION="1.19.4"
+ENV VERSION="1.20.4"
 
  WORKDIR /minecraft_server
 
