@@ -9,4 +9,4 @@ WORKDIR /minecraft_server
 
 EXPOSE 25565/tcp
 
-CMD java -Xmx${JAVA_MAX_MEMORY} -Xms${JAVA_MIN_MEMORY} -Paper.IgnoreJavaVersion=true -jar /minecraft_server/server.jar nogui
+CMD java -Xmx${JAVA_MAX_MEMORY} -Xms${JAVA_MIN_MEMORY} "-Paper.IgnoreJavaVersion=true" -jar /minecraft_server/server.jar nogui
