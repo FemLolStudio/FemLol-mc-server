@@ -1,4 +1,4 @@
-FROM openjdk:21-ea
+FROM openjdk:25-ea
 
 ENV EULA="TRUE"
 ENV VERSION="1.21.10"
